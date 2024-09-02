@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+}
+
+/* Top bar */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4d6337;
+    color: #ffffff;
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+/* Main container for nav and banner */
+.main-banner {
+    position: relative; 
+    background-image: url('https://cdn.shopify.com/s/files/1/0558/1615/9365/files/BLOOM_GO_2-218-FPUbanner_1920x919_cce19ca2-a746-4b9c-b1d9-e0262d8ae498.jpg?v=1720040477'); /* Ruta de la imagen de fondo */
+    background-size: cover;
+    height: 665px; 
+    color: #4d6337;
+}
+
+/* Main navigation and logo */
+nav {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding-top: 20px ; 
+    position: absolute;
+    width: 100%;
+}
+
+/* Logo */
+figure {
+    margin: 0;
+}
+
+figure img {
+    height: 50px; 
+}
+
+/* Navigation links */
+ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin-right: 160px; 
+    flex-grow: 1; /* Permite que el ul ocupe espacio entre el logo */
+    justify-content: center; 
+}
+
+ul li a {
+    text-decoration: none;
+    color: #4d6337;
+    font-weight: bold;
+    font-size: 16px; 
+}
+
+/* Banner text */
+.banner-content {
+    text-align: center;
+    padding-top: 150px; 
+}
+
+.banner-content h1 {
+    font-size: 42px; 
+    margin-bottom: 10px;
+}
+
+.banner-content p {
+    font-size: 20px; 
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+/* Button style */
+button {
+    background-color: #4d6337;
+    color: #FFFFFF;
+    padding: 8px 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #374a34; 
+}
